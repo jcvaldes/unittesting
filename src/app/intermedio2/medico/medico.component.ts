@@ -18,6 +18,6 @@ export class MedicoComponent implements OnInit {
   }
   obtenerMedicos() {
     this.medicoService.getMedicos()
-    .subscribe((medicos: any[]) => this.medicos = medicos)
+    .subscribe((medicos: any[]) => this.medicos = medicos);
   }
 }
